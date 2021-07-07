@@ -1,0 +1,22 @@
+{
+  "name": "test",
+  "version": "0.0.1",
+  "description": "Test testcontainers",
+  "main": "app.js",
+  "scripts": {
+    "test:integration": "jest --selectProjects integration"
+  },
+  "author": "Rico",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "@types/node": "^14.17.4",
+    "@types/supertest": "^2.0.11",
+    "jest": "^27.0.6",
+    "supertest": "^6.1.3",
+    "testcontainers": "7.12.0",
+    "ts-jest": "^27.0.3",
+    "tsc-watch": "^4.4.0",
+    "typescript": "^4.3.4"
+  }
+}
